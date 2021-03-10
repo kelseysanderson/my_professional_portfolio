@@ -10,4 +10,4 @@ Second bootcamp assignment. First version of a professional portfolio website in
 
 
 ## Live URL
-[Kelsey Sanderson Portfolio URL](https://kelseysanderson.github.io/my_portfolio/)
+[Kelsey Sanderson Portfolio URL](https://kelseysanderson.github.io/my_professional_portfolio/)
