@@ -160,7 +160,7 @@ footer{
     div.card{
         margin-bottom: 20px;
     }
-
+}
 @media screen and (max-width: 992px) {
    header{
        text-align:center;
@@ -187,7 +187,7 @@ footer{
    .flex-container{
        flex-direction:column;
    }
-   
+}
 @media screen and (max-width: 768px) {
     header {
         flex-direction:column;
@@ -206,4 +206,4 @@ footer{
         display:block;
     }
    
-    
+    }
