@@ -6,7 +6,7 @@ Second bootcamp assignment. First version of a professional portfolio website in
 
 ## Screenshot
 
-![Kelsey Sanderson Portfolio Screencapture](/assets/images/screencapture.jpg)
+![Kelsey Sanderson Portfolio Screencapture](./assets/images/current_screencapture.png)
 
 
 ## Live URL
