@@ -81,16 +81,19 @@ h2 {
 
 #bio-text {
     font-size: 20px;
+    margin-top: 5%;
 }
 
 #portrait {
     float:left;
     object-fit: cover;
     height: 200px;
-    width: 175px;
+    width: 185px;
     border-radius: 8px;
     box-shadow: 5px 5px 10px rgb(4, 0, 65);
     margin-right:7%;
+    margin-top: 5%;
+    margin-bottom:3%;
 }
 
 p {
@@ -107,8 +110,14 @@ p:hover {
     margin: 3px;
 }
 
+#pdf-logo {
+    width: 20%;
+    margin-left: 40%;
+}
+
 #header-2 {
     background-color: #ca9635;
+    /* padding:20px; */
     color: white;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -122,14 +131,32 @@ p:hover {
     font-weight: bolder;
 }
 
+.project-tech-1:hover {
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+}
+
+p.project-tech {
+    text-decoration: none
+}
+
 .project-tech {
-    font-size:12px;
+    font-size:13px;
     font-weight: bolder;
+}
+
+.card a:hover {
+    color: rgb(158, 158, 158);
+    text-decoration: none;
 }
 
 .outline {
     align-self:center;
     margin-bottom:10px;
+}
+
+.contact {
+    margin-top: 20px;
 }
 
 .contact img{
@@ -140,15 +167,10 @@ p:hover {
  .contact div li{
     padding-right:20px;
     padding-left:20px;
- }
+}
 
 li {
     list-style-type: none;
-}
-
-#pdf-logo {
-    width: 10%;
-    margin-left: 25%;
 }
 
 footer{

@@ -4,108 +4,161 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/newstyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <title>Kelsey Sanderson portfolio</title>
+    <title>Document</title>
 </head>
-<body>
-    <header class="header">
-        <h1>Kelsey Sanderson</h1>
-        <nav>
-            <ul>
-                <li><a class="button" href="#aboutme">About Me</a></li>
-                <li><a class="button" href="#mywork">My Work</a></li>
-                <li><a class="button" href="#contactme">Contact Me</a></li>
+<body id="body">
+    <header>
+        <div class="jumbotron jumbotron-fluid" id="header-style">
+            <div class="container">
+                <div class="row justify-content-end" >
+                    <h1 id="name-text">kelsey sanderson</h1>
+                </div>
+            </div>    
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#about-me" id="yellow-text">about me<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#my-work" id="yellow-text">my work</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#contact-me" id="yellow-text">contact me</a>
+                </li>
             </ul>
         </nav>
-        </div>
     </header>
-
-    <main>
-        <h2 id="aboutme">About Me</h2>
-            <section class="container"> 
-                <div>
-                   <div><img id="portrait" src="./assets/images/portrait.jpg" alt= "image of Kelsey" width="185" height="200"></div>
-                    <div>
-                    <p>Hi, I'm Kelsey! I am embarking on a journey to transition from a career in children's behavioral therapy to web development. I have experience using HTML, CSS, JavaScript, JQuery, and Bootstrap but am currently expanding my knowledge set in the 
-                        University of Minnesota's coding bootcamp. The world of programming is fascinating to me and I am eager to learn more.
-                    </p>
+            
+      <h2>about me</h2>
+        <section class="container-fluid">
+          <div class="row justify-content-center" id="section-row">
+            <div class="col-12 col-sm-9 col-md-9 col-lg-8 mb-3">
+              <div class="card">
+                <h3 class="card-header" id="header-1">bio</h3>
+                  <div class="card-body">
+                    <div><img id="portrait" src="./assets/images/portrait.jpg" alt= "image of Kelsey"></div>
+                        <p class="card-text" id="bio-text">
+                            I am embarking on a journey to transition from a career in children's behavioral therapy to web development. 
+                            Currently, I am currently expanding my knowledge set in the University of Minnesota's coding bootcamp. The world of programming is fascinating to me and I am eager to learn more.
+                        </p>
                     </div>
                 </div>
-             </section>
+            </div>
+            
+            <div class="col-12 col-sm-3 col-md-3 col-lg-4 mb-3">
+              <div class="row mb-2">
+              <div class="card">
+                <h3 class="card-header" id="header-1">tech</h3>
+                  <div class="card-body">
+                      <a href="https://www.w3schools.com/html/"><img class="logo" src="./assets/images/Html.jpg" alt= "HTML logo" width="40" height="40"></a>
+                      <a href="https://www.w3schools.com/css/css_website_layout.asp"><img class="logo" src="./assets/images/Css.jpg" alt= "CSS logo" width="40" height="40"></a>
+                      <a href="https://nodejs.org/en/"><img class="logo" src="./assets/images/node.jpg" alt= "node.js logo" width="40" height="40"></a>
+                      <a href="https://reactjs.org/"><img class="logo" src="./assets/images/React.jpg" alt= "react logo" width="40" height="40"></a>
+                      <a href="https://expressjs.com/"><img class="logo" src="./assets/images/Express.jpg" alt= "express logo" width="40" height="40"></a>
+                      <a href="https://www.mysql.com/"><img class="logo" src="./assets/images/Mysql.jpg" alt= "MySQL logo" width="40" height="40"></a>
+                      <a href="https://sequelize.org/"><img class="logo" src="./assets/images/Sequelize.jpg" alt= "Sequelize Logo" width="40" height="40"></a>  
+                      <a href="https://handlebarsjs.com/"><img class="logo" src="./assets/images/Handlebars.jpg" alt= "Handlebars" width="40" height="40"></a>
+                  </div>
+              </div>
+              </div>
+              <div class="row">
+                <div class="card">
+                  <h3 class="card-header" id="header-1">resume</h3>
+                    <div class="card-body" id="resume-pdf">
+                      <a href="./assets/resume/ksanderson_resume.pdf"><img id="pdf-logo" src="./assets/images/pdf.jpg" alt="PDF logo"></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+  
+          </div>
+        </section>
 
-                
-        <h2 id="mywork">My Work</h2>
-        <div class = "container" style = "margin-bottom:20px;">
-            <section class="row align-content-center">
-                    <div class = "col-12">
-                        <div>
-                            <div><a href=" https://slee612.github.io/group_project_1/" target="_new"><img src="./assets/images/fotografierende-LsiDmKXcf0c-unsplash.jpg" alt="Weather Dashboard Screencapture" style="width:500px; height:250px; object-fit:cover; margin-bottom:30px;"></a>
-                            <div>
-                            <a class="morning button" href=" https://slee612.github.io/group_project_1/"btn btn-primary>Modern Mornings</a>
-                            </div>
-                            </div>
-                        </div>
+      <h2 id="my-work">my work</h2>
+        <section class="container-fluid">
+          <div class="row justify-content-center" id="section-row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 mb-3">
+              <div class="card">
+                <a href = "https://plant-project123.herokuapp.com/"> 
+                  <h3 class="card-header" id="header-2">plants</h3>
+                </a>
+                <img class="outline" src="./assets/images/plant.jpg" alt= "Plant black and white outline" style="width: 50%; height:60%;">
+                <a href = "https://plant-project123.herokuapp.com/">  
+                <p class="project-tech-1"> HTML, CSS, Bootstrap, JavaScript, Express, MySQL, Handlebars</p>
+                <p>A full-stack web application where a user can
+                  search through a database to find information on many plants and save to their own garden. </p> 
+                </a>
+              </div>
+            </div>
+              <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-3">
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-3">
+                    <div class="card">
+                      <a href = "https://radiant-plains-87467.herokuapp.com/"> 
+                        <h3 class="card-header" id="header-2">tech blog</h3>
+                      </a>
+                      <img class="outline" src="./assets/images/tech.jpg" alt= "Tech black and white outline" style="width: 40%; height:50%;">
+                      <a href = "https://radiant-plains-87467.herokuapp.com/">  
+                      <p class="project-tech"> HTML, CSS, JavaScript, Express, MySQL, Handlebars </p> 
+                      </a>
                     </div>
-            </section>
-        </div>
-        <div class = "container">
-            <section class="row">
-                    <div class = "col-12 col-sm-12 col-md-6 col-lg-6">
-                        <div style="width: 20rem; height:20rem">
-                            <div><a href="https://kelseysanderson.github.io/weather_dashboard/" target="_new"><img src="./assets/images/screencapture_weather.jpeg" alt="Weather Dashboard Screencapture" style="width:350px; height:250px; object-fit:cover"></a>
-                            <div class="card-body">
-                            <a class="button" href="https://kelseysanderson.github.io/weather_dashboard/"btn btn-primary>Weather Dashboard</a>
-                            </div>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="col-12 col-md-6 mb-3">
+                    <div class="card">
+                      <a href = "https://github.com/kelseysanderson/team_profile_generator"> 
+                        <h3 class="card-header" id="header-2">team generator</h3>
+                      </a>
+                      <img class="outline" src="./assets/images/person.jpg" alt= "Person black and white outline" style="width: 40%; height:50%;">
+                      <a href = "https://github.com/kelseysanderson/team_profile_generator">  
+                      <p class="project-tech">HTML, CSS, JavaScript, Node.js, Jest</p> 
+                      </a>
                     </div>
-                    <div class = "col-12 col-sm-12 col-md-6 col-lg-6">
-                        <div style="width: 20rem; height:20rem">
-                            <div><a href="https://kelseysanderson.github.io/code_quiz/" target="_new"><img src="./assets/images/title_page.jpeg" alt="Code Quiz Screencapture" style="width:350px; height:250px; object-fit:cover"></a>
-                            <div class="card-body">
-                            <a class="button" href="https://kelseysanderson.github.io/code_quiz/"btn btn-primary>Code Quiz</a>
-                            </div>
-                            </div>
-                        </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-3">
+                    <div class="card">
+                      <a href = "https://kelseysanderson.github.io/weather_dashboard/"> 
+                        <h3 class="card-header" id="header-2">weather dashboard</h3>
+                      </a>
+                      <img class="outline" src="./assets/images/sun.jpg" alt= "Sun black and white outline" style="width: 50%; height:50%;">
+                      <a href = "https://kelseysanderson.github.io/weather_dashboard/">  
+                      <p class="project-tech">HTML, CSS, JavaScript, Jest, OpenWeather API</p> 
+                      </a>
                     </div>
-
-                   <div class = "col-12 col-sm-12 col-md-6 col-lg-6 ">
-                        <div style="width: 20rem; height:20rem">
-                            <div><a href="https://kelseysanderson.github.io/password_generator/" target="_new"><img src="./assets/images/password_generator_screencapture.png" alt="Password Generator Website" style="width:350px; height:250px; object-fit:cover"></a>
-                            <div class="card-body">
-                            <a class="button" href="https://kelseysanderson.github.io/password_generator/"btn btn-primary>Password Generator</a>
-                            </div>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="col-12 col-md-6 mb-3">
+                    <div class="card">
+                      <a href = "https://github.com/kelseysanderson/e-commerce"> 
+                        <h3 class="card-header" id="header-2">e-commerce</h3>
+                      </a>
+                      <img class="outline" src="./assets/images/shoppingcart.jpg" alt= "Shopping cart black and white outline" style="width: 70%; height:60%;">
+                      <a href = "https://github.com/kelseysanderson/e-commerce">  
+                        <p class="project-tech">JavaScript, Node.js, MySQL, Sequelize </p> 
+                      </a>
                     </div>
-                    <div class = "col-12 col-sm-12 col-md-6 col-lg-6 ">
-                        <div style="width: 20rem; height:20rem">
-                            <div><a href="https://kelseysanderson.github.io/password_generator/" target="_new"><img src="./assets/images/fotografierende-LsiDmKXcf0c-unsplash.jpg" alt="Password Generator Website" style="width:350px; height:250px; object-fit:cover"></a>
-                            <div class="card-body">
-                            <a class="button" href="https://kelseysanderson.github.io/password_generator/"btn btn-primary>Upcoming</a>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-            </section>
-        </div>
-        
-    <h2 id="contactme">Contact Me</h2>
-            <div class = "container">
-                         
-                    <ul class="row justify-content-center contact">
-                        <div><li><a href="mailto:kelseyschreifels@gmail.com"><img src="./assets/images/gmail.webp" alt="Gmail logo"></a></li></div>
-                        <div><li><a href="https://www.linkedin.com/in/kelseyschreifels" target="_new"><img src="./assets/images/linkedin.png" alt="LinkedIn logo"></a></li></div>
-                        <div><li><a href="https://www.github.com/kelseysanderson" target="_new"><img src="./assets/images/github.webp" alt="GitHub logo"></a></li></div>                    
-                    </ul>
-                               
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+        <h2 id="contact-me">Contact Me</h2>
+            <div class = "container">           
+              <ul class="row justify-content-center contact">                
+                <div><li><a href="mailto:kelseyschreifels@gmail.com"><img src="./assets/images/gmail.webp" alt="Gmail logo"></a></li></div>
+                <div><li><a href="https://www.linkedin.com/in/kelseyschreifels" target="_new"><img src="./assets/images/linkedin.png" alt="LinkedIn logo"></a></li></div>
+                <div><li><a href="https://www.github.com/kelseysanderson" target="_new"><img src="./assets/images/github.webp" alt="GitHub logo"></a></li></div>                    
+              </ul>                    
             </div> 
     </main>
     <footer>
         <p> &copy; 2021 Kelsey Sanderson</p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-</body>
 </html>
+
+
+
