@@ -121,6 +121,10 @@ p:hover {
     border-top-left-radius: 8px;
 }
 
+div#resume-pdf.card-body {
+    text-align: center;
+}
+
 .project-tech-1 {
     font-size:18px;
     font-weight: bolder;
