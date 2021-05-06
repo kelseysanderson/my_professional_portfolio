@@ -6,7 +6,7 @@ First version of a professional portfolio website including "about me", "my work
 
 ## Screenshot
 
-![Kelsey Sanderson Portfolio Screencapture](./assets/images/portfolio-screencapture.jpg)
+![Kelsey Sanderson Portfolio Screencapture](./assets/images/current_screencapture.jpg)
 
 ## License
 Read more about the license here:
