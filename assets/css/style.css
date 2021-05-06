@@ -110,6 +110,7 @@ p:hover {
 
 #pdf-logo {
     width: 20%;
+    margin-left: 40%;
 }
 
 #header-2 {
@@ -118,10 +119,6 @@ p:hover {
     margin-bottom:10px;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
-}
-
-div#aboutme-side-section.card-body {
-    text-align: center;
 }
 
 .project-tech-1 {
